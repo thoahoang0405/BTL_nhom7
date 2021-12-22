@@ -44,17 +44,110 @@ header{
 {
     padding-left: 40px;
 }
-
-.upload-icon
-{
-   background-color:var(--bs-body-color);
-   display: inline-block;
-    border: 0px;
-    
+.nav-link{
+    color:#fff;
 }
-.btnHeader
+
+#btnUpload{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+}
+#btnNoti{
+
+   font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+}
+.img-user
 {
-    width:30px;
-    height: 30px;
-    /* margin-top:56px; */
+    width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   cursor: pointer;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#cover
+{
+
+    height: 250px;
+    background-image:url(https://i.pinimg.com/originals/e0/64/7c/e0647c2b22a075f162ac55d75eb21d95.jpg);
+    /* position: relative; */
+}
+#circle-image
+{
+    width: 100px;
+    height: 100px;
+    
+  
+}
+#circle-image{
+    margin-top: 140px;
+}
+#gioi-thieu
+{
+    margin-top: 120px;
+}
+#khung-chu
+{
+    display: flex;
+    margin-top: 150px;
+}
+#khung-chu button
+{
+    margin-left:20px;
+   
+}
+#khung-chu-2
+{
+    display:flex;
+}
+#followers
+{
+    margin-left:25px;
+}
+#following
+{
+    margin-left:25px;
+}
+#day-join
+{
+    margin-left:450px;
+}
+.main{
+    margin-top:10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tab-content{
+    background-color: #fff;
+}
+.write-something{
+    height: 100px;
+}
+#khoanh{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dv-anh{
+    width: 400px;
+    margin:10px;
+}
+#gioithieu-thamgia{
+    height: 160px;
+
+}
+#gioithieu-thamgia>div{
+    height: 50px;   
+}
+#gioithieu-thongtinthem a {
+    text-decoration: none;
+    color: black;
+}
+#popular-photo{
+    height:200px ;
+    background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2021/06/anh-bia-dep-chat-anime.jpg");
 }
